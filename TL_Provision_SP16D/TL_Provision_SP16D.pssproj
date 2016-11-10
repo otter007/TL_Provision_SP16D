@@ -28,7 +28,11 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="Create-TL-SP16D-BaseConfig.ps1" />
+    <Compile Include="Connect-Azure.psm1" />
+    <Compile Include="Create-TL-SP16D-BaseConfig-Phase1.ps1" />
+    <Compile Include="Phase2.ps1" />
+    <Compile Include="Phase2-Notes.md" />
+    <Compile Include="Script1.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
